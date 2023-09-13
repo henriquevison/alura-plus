@@ -1,0 +1,123 @@
+:root{
+    --primary-white:#FFFFFF;
+    --secondary-grey:#C0C0C0;
+    --buttom-blue:#167BF7;
+    --background-color:#00030C;
+    --font-primary:'Inter';
+    --buttom-background:#004396;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-color:var(--background-color);
+    color:var(--primary-white);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.primary-section{
+    background-image: url(/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container-box{
+    margin: 0 6em;
+}
+.container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.container-title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.container-img{
+    margin:1em 0 2em 0;
+}
+.container-img-secundary{
+    width: 80%;
+}
+.container-buttom{
+    background-color: var(--buttom-blue);
+    text-decoration: none;
+    border-radius: 5px;
+    padding:1em;
+    color: var(--primary-white);
+    display:block;
+    margin-bottom: 1em;
+}
+.container-buttom:hover{
+    background-color:var(--buttom-background)
+}
+.container-buttom-two{
+    background-color: transparent;
+    border:2px solid var(--primary-white);
+    text-decoration: none;
+}
+.container-buttom-two:hover{
+    background-color: var(--buttom-blue);
+}
+.buttom-secondary{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container-information{
+    font-size: 1rem;
+    color: var(--secondary-grey);
+}
+.container-secondary{
+    align-items: center;
+    margin:0 10em;
+}
+.container-title-secondary{
+    font-weight: 700;
+    font-size: 3rem;
+    color:var(--primary-white);
+    margin-bottom: 0.1em;
+}
+.container-description-secondary{
+    color: var(--secondary-grey);
+}
+.container-description{
+    padding:2em;
+}
+.dispositivos-final{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin:5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    margin: 5em 3em;
+}
+.footer_list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.footer_li a{
+    text-decoration: none;
+    color: var(--primary-white);
+    margin-left: 1em;
+}
+.footer_text{
+    margin:1em 0;
+    font-size: 14px;
+    color: var(--secondary-grey);
+}
+
+.footer_li a:hover{
+    color: var(--buttom-blue);
+}
